@@ -35,7 +35,7 @@ news_p
 # ## JPL Space Images Featured Image
 
 # Visit URL
-url = 'https://spaceimages-mars.com'
+url = 'https://spaceimages-mars.com/'
 browser.visit(url)
 
 # Find and click the full image button
@@ -56,7 +56,7 @@ img_url
 
 # ## Mars Facts
 
-df = pd.read_html('https://galaxyfacts-mars.com')[0]
+df = pd.read_html('https://galaxyfacts-mars.com/')[0]
 df.head()
 
 df.columns=['Description', 'Mars', 'Earth']
